@@ -3,6 +3,7 @@ let page = 1;
 const photosPerPage = 9;
 const key = 'LuqhJuoKGdB9GdolDHMBmzBRJVINAnPInPnMtgm9-6E';
 
+
 async function fetchPhotos() {
     url = `https://api.unsplash.com/photos?page=${page}&per_page=${photosPerPage}&client_id=${key}`
     try {
